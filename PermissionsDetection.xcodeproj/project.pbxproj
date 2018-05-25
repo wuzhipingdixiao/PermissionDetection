@@ -17,9 +17,6 @@
 		144A94DA20B3C882007E1233 /* PermissionsDetectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 144A94D920B3C882007E1233 /* PermissionsDetectionUITests.m */; };
 		144A94EE20B3C8AF007E1233 /* LocationPermissionDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 144A94E920B3C8AF007E1233 /* LocationPermissionDetection.m */; };
 		144A94EF20B3C8AF007E1233 /* PermissionsDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 144A94EB20B3C8AF007E1233 /* PermissionsDetection.m */; };
-		144A94F620B3CF82007E1233 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 144A94F220B3CF82007E1233 /* LICENSE */; };
-		144A94F720B3CF82007E1233 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 144A94F320B3CF82007E1233 /* README.md */; };
-		144A94F820B3CF82007E1233 /* ZLLAuthorizationCheckTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 144A94F520B3CF82007E1233 /* ZLLAuthorizationCheckTool.m */; };
 		144A94FB20B3F24D007E1233 /* AddressBookPermissionDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 144A94FA20B3F24D007E1233 /* AddressBookPermissionDetection.m */; };
 		144A94FE20B3F42B007E1233 /* PhotosPermissionDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 144A94FD20B3F42B007E1233 /* PhotosPermissionDetection.m */; };
 		144A950120B3F614007E1233 /* CameraPermissionDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 144A950020B3F614007E1233 /* CameraPermissionDetection.m */; };
@@ -65,10 +62,6 @@
 		144A94E920B3C8AF007E1233 /* LocationPermissionDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationPermissionDetection.m; sourceTree = "<group>"; };
 		144A94EA20B3C8AF007E1233 /* PermissionsDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PermissionsDetection.h; sourceTree = "<group>"; };
 		144A94EB20B3C8AF007E1233 /* PermissionsDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PermissionsDetection.m; sourceTree = "<group>"; };
-		144A94F220B3CF82007E1233 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		144A94F320B3CF82007E1233 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		144A94F420B3CF82007E1233 /* ZLLAuthorizationCheckTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLLAuthorizationCheckTool.h; sourceTree = "<group>"; };
-		144A94F520B3CF82007E1233 /* ZLLAuthorizationCheckTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLLAuthorizationCheckTool.m; sourceTree = "<group>"; };
 		144A94F920B3F24D007E1233 /* AddressBookPermissionDetection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressBookPermissionDetection.h; sourceTree = "<group>"; };
 		144A94FA20B3F24D007E1233 /* AddressBookPermissionDetection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookPermissionDetection.m; sourceTree = "<group>"; };
 		144A94FC20B3F42B007E1233 /* PhotosPermissionDetection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotosPermissionDetection.h; sourceTree = "<group>"; };
@@ -129,7 +122,6 @@
 		144A94B420B3C882007E1233 /* PermissionsDetection */ = {
 			isa = PBXGroup;
 			children = (
-				144A94F120B3CF82007E1233 /* AuthorizationStatus */,
 				144A94E720B3C8AF007E1233 /* PermissionsDetection */,
 				144A94B520B3C882007E1233 /* AppDelegate.h */,
 				144A94B620B3C882007E1233 /* AppDelegate.m */,
@@ -181,18 +173,6 @@
 				144A950620B4127A007E1233 /* PermissionAlertView.m */,
 			);
 			path = PermissionsDetection;
-			sourceTree = "<group>";
-		};
-		144A94F120B3CF82007E1233 /* AuthorizationStatus */ = {
-			isa = PBXGroup;
-			children = (
-				144A94F220B3CF82007E1233 /* LICENSE */,
-				144A94F320B3CF82007E1233 /* README.md */,
-				144A94F420B3CF82007E1233 /* ZLLAuthorizationCheckTool.h */,
-				144A94F520B3CF82007E1233 /* ZLLAuthorizationCheckTool.m */,
-			);
-			name = AuthorizationStatus;
-			path = ../../../AuthorizationStatus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,8 +283,6 @@
 			files = (
 				144A94C220B3C882007E1233 /* LaunchScreen.storyboard in Resources */,
 				144A94BF20B3C882007E1233 /* Assets.xcassets in Resources */,
-				144A94F720B3CF82007E1233 /* README.md in Resources */,
-				144A94F620B3CF82007E1233 /* LICENSE in Resources */,
 				144A94BD20B3C882007E1233 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,7 +316,6 @@
 				144A94FB20B3F24D007E1233 /* AddressBookPermissionDetection.m in Sources */,
 				144A94FE20B3F42B007E1233 /* PhotosPermissionDetection.m in Sources */,
 				144A94C520B3C882007E1233 /* main.m in Sources */,
-				144A94F820B3CF82007E1233 /* ZLLAuthorizationCheckTool.m in Sources */,
 				144A94EF20B3C8AF007E1233 /* PermissionsDetection.m in Sources */,
 				144A94B720B3C882007E1233 /* AppDelegate.m in Sources */,
 			);
